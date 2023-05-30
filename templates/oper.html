@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <center>
+    <h1>
+        this is data 
+    </h1>
+    <table>
+        <tr>
+            <th>name</th>
+            <th>age</th>
+            <th>sal</th>
+        </tr>
+        <tr>
+            <td>{{name}}</td>
+            <td>{{age}}</td>
+            <td>{{sal}}</td>
+        </tr>
+        <tr>
+            <td>{{name1}}</td>
+            <td>{{age1}}</td>
+            <td>{{sal1}}</td>
+        </tr>
+        <tr>
+            <td>{{name2}}</td>
+            <td>{{age2}}</td>
+            <td>{{sal2}}</td>
+        </tr>
+        <tr>
+            <td>{{name3}}</td>
+            <td>{{age3}}</td>
+            <td>{{sal3}}</td>
+        </tr>
+    </table>
+   </center>
+   <center>
+        {% if sal > 1000 %}
+            <h2> {{name}} salary is more than 1000</h2>
+        {% else %}
+            <h2>{{nmae}} salary is less than 1000</h2>
+        {% endif %}
+    </center>
+</body>
+</html>

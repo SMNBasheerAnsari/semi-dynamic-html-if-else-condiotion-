@@ -40,11 +40,33 @@
     </table>
    </center>
    <center>
+   <!--
         {% if sal > 1000 %}
             <h2> {{name}} salary is more than 1000</h2>
-        {% else %}
-            <h2>{{nmae}} salary is less than 1000</h2>
+        {% elif sal == 1000 %}
+            <h2>{{nmae}} salary is equal to 1000</h2>
         {% endif %}
+        {% if a < sal %}
+            {% if a >= 2000 %}
+                <h3>Truee</h3>
+            {% else %}
+                <h3>False</h3>
+            {% endif %}
+        {% endif %}
+   -->
+   {% if a > b %}
+        {% if a > c %}
+            a is max
+        {% else %}
+            c is max
+        {% endif %}
+    {% else %}
+        {% if b > c %}
+            b is max
+        {% else %}
+            c is max
+        {% endif %}
+    {% endif %}
     </center>
 </body>
 </html>

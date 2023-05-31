@@ -20,4 +20,5 @@ from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('table_data/',table_data,name='table_data'),
+    path('loop/',loop,name='loop')
 ]
